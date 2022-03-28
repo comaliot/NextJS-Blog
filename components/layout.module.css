@@ -1,0 +1,28 @@
+.container {
+  max-width: 45rem;
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.social {
+  width: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.social > div:hover {
+  cursor: pointer;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}
